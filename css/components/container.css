@@ -1,0 +1,11 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Media queries ALWAYS go at the bottom */
+@media (min-width: 100px) and (max-width: 575px) {
+  .container {
+    width: 500px;
+  }
+}

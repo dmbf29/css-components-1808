@@ -1,0 +1,38 @@
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+
+/* --- Components design --- */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/buttons.css");
+@import url("components/cards.css");
+@import url("components/container.css");
+/* TODO: import new components */
+
+/* --- Fonts & colors --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding-bottom: 200px;
+  margin: 0;
+  background-color: rgb(240,240,240);
+}
+h1, h2, h3 {
+  font-family: "Poppins", "sans-serif";
+}
+
+.text-center {
+  text-align: center;
+}
+
+#flex-container {
+  background-color: #003049;
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  border: 5px solid #003049;
+}
+
+#flex-container div {
+  width: 200px;
+  height: 200px;
+}
